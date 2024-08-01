@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/image">iNeuron Meme Generator</a>
+    </nav>
+<center><h1>Upload new image</h1></center> <br>
+<form action ={{ url_for('post_images') }} method="post" enctype="multipart/form-data">
+    <input type="file" name="image">
+    <input type="submit" value="Submit">
+</form>
+<br>
+<center><h1>Or Choose an Existing Image</h1></center><br>
+</body>
+</html>
+
+
