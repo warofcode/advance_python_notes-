@@ -1,0 +1,43 @@
+{% extends 'base.html' %} {% block content %}
+<div>
+  <form method="POST">
+    {% csrf_token %}
+    <label>Food Item:</label>
+    <input type="text" name="food_item" />
+    <label for="calories">Calories:</label>
+    <input type="number" name="calories" />
+    <label for="quantity">Quantity:</label>
+    <input type="number" name="quantity" />
+    <input type="submit" value="Submit" />
+  </form>
+</div>
+<br />
+{% if context %}
+<div>
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Food-Item</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Calories</th>
+        <th scope="col">Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in context %}
+      <tr>
+        <td>{{item.food_item}}</td>
+        <td>{{item.quantity}}</td>
+        <td>{{item.calories}}</td>
+        <td>{{item.date}}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+
+    {% else %}
+    <h1>No items in the List</h1>
+    {% endif %}
+  </table>
+</div>
+
+{% endblock %}
