@@ -1,0 +1,95 @@
+2023-05-11 16:14:25,071 diff parser start
+2023-05-11 16:14:25,072 line_lengths old: 3; new: 3
+2023-05-11 16:14:25,072 -> code[equal] old[1:2] new[1:2]
+2023-05-11 16:14:25,073 parse_part from 1 to 3 (to 2 in part parser)
+2023-05-11 16:14:25,074 -> code[replace] old[3:3] new[3:3]
+2023-05-11 16:14:25,074 diff parser end
+2023-05-11 16:14:27,977 diff parser start
+2023-05-11 16:14:27,977 line_lengths old: 3; new: 3
+2023-05-11 16:14:27,978 -> code[equal] old[1:2] new[1:2]
+2023-05-11 16:14:27,979 parse_part from 1 to 3 (to 2 in part parser)
+2023-05-11 16:14:27,980 -> code[replace] old[3:3] new[3:3]
+2023-05-11 16:14:27,980 diff parser end
+2023-05-11 16:14:58,712 diff parser start
+2023-05-11 16:14:58,759 line_lengths old: 3; new: 7
+2023-05-11 16:14:58,759 -> code[equal] old[1:2] new[1:2]
+2023-05-11 16:14:58,759 parse_part from 1 to 7 (to 6 in part parser)
+2023-05-11 16:14:58,759 -> code[replace] old[3:3] new[3:7]
+2023-05-11 16:14:58,759 diff parser end
+2023-05-11 16:14:58,845 pickle loaded: C:\Users\rkt65\anaconda3\lib\typing.py
+2023-05-11 16:14:58,858 pickle loaded: C:\Users\rkt65\anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\3\typing.pyi
+2023-05-11 16:14:59,810 diff parser start
+2023-05-11 16:14:59,811 line_lengths old: 7; new: 7
+2023-05-11 16:14:59,811 -> code[equal] old[1:6] new[1:6]
+2023-05-11 16:14:59,812 copy old[1:6] new[1:3]
+2023-05-11 16:14:59,812 parse_part from 4 to 7 (to 6 in part parser)
+2023-05-11 16:14:59,812 -> code[replace] old[7:7] new[7:7]
+2023-05-11 16:14:59,812 diff parser end
+2023-05-11 16:15:03,196 diff parser start
+2023-05-11 16:15:03,196 line_lengths old: 7; new: 7
+2023-05-11 16:15:03,196 -> code[equal] old[1:6] new[1:6]
+2023-05-11 16:15:03,197 copy old[1:6] new[1:3]
+2023-05-11 16:15:03,198 parse_part from 4 to 7 (to 6 in part parser)
+2023-05-11 16:15:03,199 -> code[replace] old[7:7] new[7:7]
+2023-05-11 16:15:03,199 diff parser end
+2023-05-11 16:15:13,835 diff parser start
+2023-05-11 16:15:13,836 line_lengths old: 7; new: 9
+2023-05-11 16:15:13,836 -> code[equal] old[1:6] new[1:6]
+2023-05-11 16:15:13,836 copy old[1:6] new[1:3]
+2023-05-11 16:15:13,837 parse_part from 4 to 9 (to 8 in part parser)
+2023-05-11 16:15:13,837 -> code[replace] old[7:7] new[7:9]
+2023-05-11 16:15:13,837 diff parser end
+2023-05-11 16:15:17,444 diff parser start
+2023-05-11 16:15:17,445 line_lengths old: 9; new: 9
+2023-05-11 16:15:17,445 -> code[equal] old[1:8] new[1:8]
+2023-05-11 16:15:17,445 copy old[1:8] new[1:3]
+2023-05-11 16:15:17,446 parse_part from 4 to 9 (to 8 in part parser)
+2023-05-11 16:15:17,447 -> code[replace] old[9:9] new[9:9]
+2023-05-11 16:15:17,447 diff parser end
+2023-05-11 16:15:39,789 diff parser start
+2023-05-11 16:15:39,790 line_lengths old: 9; new: 11
+2023-05-11 16:15:39,790 -> code[equal] old[1:8] new[1:8]
+2023-05-11 16:15:39,791 copy old[1:8] new[1:3]
+2023-05-11 16:15:39,793 parse_part from 4 to 11 (to 10 in part parser)
+2023-05-11 16:15:39,793 -> code[replace] old[9:9] new[9:11]
+2023-05-11 16:15:39,794 diff parser end
+2023-05-11 16:15:49,958 diff parser start
+2023-05-11 16:15:49,959 line_lengths old: 11; new: 14
+2023-05-11 16:15:49,959 -> code[equal] old[1:10] new[1:10]
+2023-05-11 16:15:49,959 copy old[1:10] new[1:3]
+2023-05-11 16:15:49,960 parse_part from 4 to 14 (to 13 in part parser)
+2023-05-11 16:15:49,961 -> code[replace] old[11:11] new[11:14]
+2023-05-11 16:15:49,961 diff parser end
+2023-05-11 16:16:08,987 diff parser start
+2023-05-11 16:16:08,987 line_lengths old: 14; new: 16
+2023-05-11 16:16:08,987 -> code[equal] old[1:13] new[1:13]
+2023-05-11 16:16:08,988 copy old[1:13] new[1:3]
+2023-05-11 16:16:08,990 parse_part from 4 to 16 (to 15 in part parser)
+2023-05-11 16:16:08,990 -> code[replace] old[14:14] new[14:16]
+2023-05-11 16:16:08,990 diff parser end
+2023-05-11 16:16:11,097 diff parser start
+2023-05-11 16:16:11,097 line_lengths old: 16; new: 16
+2023-05-11 16:16:11,097 -> code[equal] old[1:15] new[1:15]
+2023-05-11 16:16:11,098 copy old[1:15] new[1:3]
+2023-05-11 16:16:11,098 parse_part from 4 to 16 (to 15 in part parser)
+2023-05-11 16:16:11,100 -> code[replace] old[16:16] new[16:16]
+2023-05-11 16:16:11,100 diff parser end
+2023-05-11 16:16:52,965 diff parser start
+2023-05-11 16:16:52,966 line_lengths old: 16; new: 1
+2023-05-11 16:16:52,966 -> code[replace] old[1:16] new[1:1]
+2023-05-11 16:16:52,966 parse_part from 1 to 1 (to 0 in part parser)
+2023-05-11 16:16:52,966 diff parser end
+2023-05-11 16:17:15,608 diff parser start
+2023-05-11 16:17:15,610 line_lengths old: 1; new: 21
+2023-05-11 16:17:15,610 -> code[replace] old[1:1] new[1:21]
+2023-05-11 16:17:15,611 parse_part from 1 to 21 (to 20 in part parser)
+2023-05-11 16:17:15,613 diff parser end
+2023-05-11 16:17:20,438 diff parser start
+2023-05-11 16:17:20,439 line_lengths old: 21; new: 21
+2023-05-11 16:17:20,439 -> code[equal] old[1:20] new[1:20]
+2023-05-11 16:17:20,439 copy old[1:20] new[1:3]
+2023-05-11 16:17:20,440 parse_part from 4 to 21 (to 20 in part parser)
+2023-05-11 16:17:20,440 -> code[replace] old[21:21] new[21:21]
+2023-05-11 16:17:20,442 diff parser end
+2023-05-11 16:18:17,791 Numbers were taken 13 and 13
+2023-05-11 16:18:17,792 Method completed

@@ -1,0 +1,33 @@
+2023-05-12 20:56:57,729 pickle loaded: C:\Users\rkt65\anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\3\builtins.pyi
+2023-05-12 20:56:57,825 pickle loaded: C:\Users\rkt65\anaconda3\lib\site-packages\jedi\third_party\typeshed\stdlib\3\sys.pyi
+2023-05-12 20:57:18,948 Numbers are 20 and 30
+2023-05-12 20:57:18,953 Method completed!!
+2023-05-12 21:00:02,164 diff parser start
+2023-05-12 21:00:02,164 line_lengths old: 1; new: 1
+2023-05-12 21:00:02,165 -> code[replace] old[1:1] new[1:1]
+2023-05-12 21:00:02,165 parse_part from 1 to 1 (to 0 in part parser)
+2023-05-12 21:00:02,166 diff parser end
+2023-05-12 21:01:10,697 diff parser start
+2023-05-12 21:01:10,697 line_lengths old: 1; new: 1
+2023-05-12 21:01:10,705 -> code[replace] old[1:1] new[1:1]
+2023-05-12 21:01:10,706 parse_part from 1 to 1 (to 0 in part parser)
+2023-05-12 21:01:10,706 diff parser end
+2023-05-12 21:01:14,623 diff parser start
+2023-05-12 21:01:14,623 line_lengths old: 1; new: 1
+2023-05-12 21:01:14,623 -> code[replace] old[1:1] new[1:1]
+2023-05-12 21:01:14,623 parse_part from 1 to 1 (to 0 in part parser)
+2023-05-12 21:01:14,623 diff parser end
+2023-05-12 21:01:25,432 Numbers are 10 and 2
+2023-05-12 21:01:25,432 Method completed!!
+2023-05-12 21:01:38,761 Numbers are 10 and 2
+2023-05-12 21:01:38,761 Method completed!!
+2023-05-12 21:02:20,204 Numbers are 10 and 2
+2023-05-12 21:02:20,204 Method completed!!
+2023-05-12 21:02:21,767 Numbers are 10 and 2
+2023-05-12 21:02:21,767 Method completed!!
+2023-05-12 21:02:23,453 Numbers are 10 and 2
+2023-05-12 21:02:23,453 Method completed!!
+2023-05-12 21:02:25,781 Numbers are 10 and 2
+2023-05-12 21:02:25,781 Method completed!!
+2023-05-12 21:02:28,080 Numbers are 10 and 2
+2023-05-12 21:02:28,081 Method completed!!
