@@ -1,0 +1,4 @@
+
+2024-07-29 15:50:59:https://www.uber.com is DOWN
+2024-07-29 15:51:00:https://www.lyft.com is DOWN
+2024-07-29 15:51:19:https://www.etsy.com is DOWN
