@@ -1,0 +1,14 @@
+python -m pip install jupyter --user
+
+set invironment variable
+
+C:\Users\<username>\AppData\Roaming\Python\Python35\Scripts\jupyter.exe
+
+
+
+
+you Have to paste this link inside path of edit environment variable
+C:\Users\rkt65\anaconda3\Scripts
+
+
+rkt65 is your username 
