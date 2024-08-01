@@ -1,0 +1,26 @@
+1. Opening and closing sidebar:
+Ctrl + B
+
+2. Select word :
+ Ctrl + D
+
+3. select current line:
+ctrl+l
+
+4.duplicate line: 
+
+shit+alt+upkey
+
+5.find and replace
+
+ctrl+f (You can do replace one by one or all in one go)
+
+
+5.multicursor :
+Alt + Click
+
+6. rupee sign:
+ctrl +shift +$ 
+
+
+
