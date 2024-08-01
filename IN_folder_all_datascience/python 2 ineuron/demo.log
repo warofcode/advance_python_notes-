@@ -1,0 +1,22 @@
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+2022-02-07 22:32:14,577 This message should go to the log file
+2022-02-07 22:32:14,578 So should this
+2022-02-07 22:32:14,579 And this, too
+2022-02-07 22:34:18,500 debug message
+2022-02-07 22:34:18,505 info message
+2022-02-07 22:34:18,507 warn message
+2022-02-07 22:34:18,508 error message
+2022-02-07 22:34:18,509 critical message
+2022-02-07 22:34:48,359 debug message
+2022-02-07 22:34:48,360 info message
+2022-02-07 22:34:48,363 warn message
+2022-02-07 22:34:48,365 error message
+2022-02-07 22:34:48,367 critical message
+2022-02-07 22:36:27,649 This message should go to the log file
+2022-02-07 22:36:27,649 So should this
+2022-02-07 22:36:27,650 And this, too
