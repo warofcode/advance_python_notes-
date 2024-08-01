@@ -1,3 +1,0 @@
-Greeting from iNeuron!! 
-We provide all the materials regarding Data Science. 
-Mentors, live classes, support, resume discussion and etc.
