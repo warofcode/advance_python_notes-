@@ -1,0 +1,63 @@
+import pandas as pd
+import mysql.connector
+from mysql.connector import Error
+
+try:
+    connection = mysql.connector.connect(
+        host='your_host',
+        user='your_username',
+        password='your_password'
+    )
+
+    if connection.is_connected():
+        db_info = connection.get_server_info()
+        print("Connected to MySQL Server version", db_info)
+
+        cursor = connection.cursor()
+
+        # Create the database
+        create_database_query = "CREATE DATABASE bhaskar_database"
+        cursor.execute(create_database_query)
+        print("Database 'bhaskar_database' created successfully.")
+
+        # Switch to the created database
+        use_database_query = "USE bhaskar_database"
+        cursor.execute(use_database_query)
+
+        # Create the table
+        create_table_query = '''
+        CREATE TABLE bhaskar_table (
+            column1 INT,
+            column2 VARCHAR(255),
+            column3 FLOAT
+        )
+        '''
+        cursor.execute(create_table_query)
+        print("Table 'bhaskar_table' created successfully.")
+
+        # Read CSV file into DataFrame
+        data = pd.read_csv('task_2_used_bikes.csv')
+
+        # Insert DataFrame into the table
+        for _, row in data.iterrows():
+            insert_query = f'''
+            INSERT INTO bhaskar_table (column1, column2, column3)
+            VALUES ({row['column1']}, '{row['column2']}', {row['column3']})
+            '''
+            cursor.execute(insert_query)
+
+        connection.commit()
+        print("Data inserted into 'bhaskar_table' successfully.")
+
+        # Create index on the column
+        create_index_query = "ALTER TABLE bhaskar_table ADD INDEX index_name (column1)"
+        cursor.execute(create_index_query)
+        print("Index created successfully.")
+
+except Error as e:
+    print("Error while connecting to MySQL", e)
+
+finally:
+    if connection.is_connected():
+        connection.close()
+        print("MySQL connection closed.")
